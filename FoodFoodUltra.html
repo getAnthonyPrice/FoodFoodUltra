@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="FoodFoodUltra.css">
+        <title>Food Food Ultra</title>
+    </head>
+    <body>
+        <h1>FOOD FOOD ULTRA</h1>
+        <h1 id="winner"></h1>
+        <div id="backing">
+            <h5 id="name-one"></h5>
+            <h5 id="name-two"></h5>        
+        </div>
+        
+        <div id="formBox">
+            <form id='nameInput' method="post">
+                <label for="name">Ingredient:</label>
+                <input type="text" id="name" placeholder="1st  Player">
+                <br>
+                <label for="name">Ingredient:</label>
+                <input type="text" id="name2" placeholder="2nd Player">
+                <br>
+                <input id="setButton" type="submit" value="Set">
+            </form>
+        </div>
+        <div id="buttons">
+        <button id="buttonOne" onclick="generate()">FOOD!</button>
+
+        <button id="newButton" onclick="fight()">FIGHT!</button>
+
+        </div>
+
+
+
+
+        <script src="FoodFoodUltra.js"></script>
+
+
+
+    </body>
+</html>

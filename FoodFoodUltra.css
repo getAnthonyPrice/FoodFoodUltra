@@ -1,0 +1,112 @@
+
+
+
+#newButton{
+display: none;
+
+}
+
+body{
+    background-color: #FECDD3;
+
+}
+
+#backing{
+    background-color: #F43F5E;
+    border-radius: 10px;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: Garamond, serif;
+    justify-content: center;
+    color: var(--night, #2B283A);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; /* 100% */
+    letter-spacing: -2px;
+
+
+}
+
+#winner{
+    text-align: center;
+    font-family: Garamond, serif;
+    justify-content: center;
+    color: var(--night, #F43F5E);
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 100% */
+    letter-spacing: -2px;
+    line-height: 80px;
+
+}
+
+h5{
+    font-family: Garamond, serif;
+    justify-content: center;
+    color: var(--night,#FECDD3 );
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px; /* 100% */
+    letter-spacing: -3px;
+
+
+}
+#formBox{
+
+    text-align: center;
+}
+
+
+#setButton{
+  
+    color: var(--night,#FECDD3 );
+    background: #F43F5E;
+    border-color: #FECDD3;
+}
+
+
+form{
+    margin-top: 80px;
+    text-align: center;
+    color: var(--night, #2B283A);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 38px; /* 100% */
+    letter-spacing: -2px;
+    color: var(--night,#FECDD3 );
+    display: inline-flex;
+    padding: 9px 15px 9px 15px;
+    border-radius: 6px;
+    background: #F43F5E;
+    border-color: #FECDD3
+
+}
+
+
+button{
+    margin-top: 100px;
+    font-family: Garamond, serif;
+    justify-content: center;
+    color: var(--night,#FECDD3 );
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 100% */
+    letter-spacing: -2px;
+    display: inline-flex;
+    padding: 9px 17px 9px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #F43F5E;
+    cursor: pointer;
+    border-radius: 6px;
+    border-color: #FECDD3
+}
