@@ -103,7 +103,7 @@ let firstLetter2 = ''
 
 form.addEventListener('submit', function (event) {
     if (!input1.value || !input2.value) {
-        
+
         event.preventDefault(); 
 
     }else{
@@ -185,9 +185,9 @@ function letterValue(letter) {
         u: 21, v: 22, w: 23, x: 24, y: 25, z: 26
     };
 
-    const inputCharacter = letter.toLowerCase(); // Convert input to lowercase
+    const inputCharacter = letter.toLowerCase(); 
 
-    return letterValues[inputCharacter] || 0; // Default to 0 if input is not a letter
+    return letterValues[inputCharacter] || 0; 
 }
 
 
