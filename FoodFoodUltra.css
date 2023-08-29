@@ -19,7 +19,7 @@ body{
 
 h1{
     text-align: center;
-    font-family: Garamond, serif;
+    font-family: Garamond, serif, Arial, Helvetica, sans-serif;
     justify-content: center;
     color: var(--night, #2B283A);
     font-size: 60px;
@@ -33,7 +33,7 @@ h1{
 
 #winner{
     text-align: center;
-    font-family: Garamond, serif;
+    font-family: Garamond, serif, Arial, Helvetica, sans-serif;
     justify-content: center;
     color: var(--night, #F43F5E);
     font-size: 70px;
@@ -46,7 +46,7 @@ h1{
 }
 
 h5{
-    font-family: Garamond, serif;
+    font-family: Garamond, serif, Arial, Helvetica, sans-serif;
     justify-content: center;
     color: var(--night,#FECDD3 );
     font-size: 35px;
@@ -92,7 +92,7 @@ form{
 
 button{
     margin-top: 100px;
-    font-family: Garamond, serif;
+    font-family: Garamond, serif, Arial, Helvetica, sans-serif;
     justify-content: center;
     color: var(--night,#FECDD3 );
     font-size: 40px;
