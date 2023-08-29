@@ -25,7 +25,7 @@ h1{
     font-size: 60px;
     font-style: normal;
     font-weight: 800;
-    line-height: 40px; /* 100% */
+    line-height: 40px;
     letter-spacing: -2px;
 
 
@@ -39,7 +39,7 @@ h1{
     font-size: 70px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 100% */
+    line-height: 40px;
     letter-spacing: -2px;
     line-height: 80px;
 
@@ -52,7 +52,7 @@ h5{
     font-size: 35px;
     font-style: normal;
     font-weight: 800;
-    line-height: 35px; /* 100% */
+    line-height: 35px;
     letter-spacing: -3px;
 
 
@@ -78,14 +78,14 @@ form{
     font-size: 30px;
     font-style: normal;
     font-weight: 800;
-    line-height: 38px; /* 100% */
+    line-height: 38px;
     letter-spacing: -2px;
     color: var(--night,#FECDD3 );
     display: inline-flex;
     padding: 9px 15px 9px 15px;
     border-radius: 6px;
     background: #F43F5E;
-    border-color: #FECDD3
+    border-color: #FECDD3;
 
 }
 
@@ -98,7 +98,7 @@ button{
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
-    line-height: 40px; /* 100% */
+    line-height: 40px;
     letter-spacing: -2px;
     display: inline-flex;
     padding: 9px 17px 9px 15px;
@@ -108,5 +108,5 @@ button{
     background: #F43F5E;
     cursor: pointer;
     border-radius: 6px;
-    border-color: #FECDD3
+    border-color: #FECDD3;
 }
